@@ -1,0 +1,38 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "RESEARCHSUBJECT_PLANETMODULE_PHASICDEFENSE2"
+smallHudIcon "RESEARCHSUBJECT_PLANETMODULE_PHASICDEFENSE2"
+infoCardIcon ""
+NameStringID "IDS_PLANETMODULEIMPROVEMENT_PHASEORBITALDEFENSE_NAME"
+DescriptionStringID "IDS_PLANETMODULEIMPROVEMENT_PHASEORBITALDEFENSE_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 4 , 5 ]
+ResearchField "Defense"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_PLANETMODULEACCESS_PLANET_DEFENSE_PHASE"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 50.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1200.000000
+	metal 200.000000
+	crystal 325.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 4
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880
