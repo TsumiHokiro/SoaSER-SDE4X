@@ -1,0 +1,47 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_ING_Downsizing"
+smallHudIcon "HUDICON_ING_Downsizing"
+infoCardIcon ""
+NameStringID "IDS_Research_ING_Downsizing_NAME"
+DescriptionStringID "IDS_Research_ING_Downsizing_DESC"
+researchWindowLocation
+	block 0
+	pos [ 5 , 0 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 90.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1400.000000
+	metal 250.000000
+	crystal 400.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 5
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 4
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 3
+researchModifier
+	modifierType "ShipBuildRateAdjustment"
+	baseValue 0.000000
+	perLevelValue -0.100000
+researchModifier
+	modifierType "CreditCostAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.020000
+researchModifier
+	modifierType "IncomePercLost"
+	baseValue 0.000000
+	perLevelValue -0.025000
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

@@ -1,0 +1,42 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_ING_TradeIncome1"
+smallHudIcon "HUDICON_ING_TradeIncome1"
+infoCardIcon ""
+NameStringID "IDS_Research_ING_TradeBonusEmp1_NAME"
+DescriptionStringID "IDS_Research_ING_TradeBonusEmp1_DESC"
+researchWindowLocation
+	block 1
+	pos [ 4 , 3 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Research_ING_PlanetModuleAccess_EmpTradePort"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 75.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1200.000000
+	metal 200.000000
+	crystal 325.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 4
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 4
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "TradeGoodsValueAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.075000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

@@ -1,0 +1,46 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_ING_StarbaseEmpArmorUpgrade3"
+smallHudIcon "HUDICON_ING_StarbaseEmpArmorUpgrade3"
+infoCardIcon ""
+NameStringID "IDS_Research_ING_ArmorEmp3_NAME"
+DescriptionStringID "IDS_Research_ING_ArmorEmp3_DESC"
+researchWindowLocation
+	block 2
+	pos [ 6 , 1 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Research_ING_HullEmp3"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 105.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1600.000000
+	metal 300.000000
+	crystal 475.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 6
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 5
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "ArmorBaseAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.250000
+researchModifier
+	modifierType "ResourceCostAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.015000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880
